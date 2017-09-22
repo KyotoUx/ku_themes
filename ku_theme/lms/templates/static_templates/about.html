@@ -1,0 +1,31 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("About")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>ツールについて（作成中）</h1>
+
+        <p>MOOCが世界中の誰もに開かれたオンライン講義であるのに対し、MOOCと同様のツールや仕組みを利用し、各大学が自学の学生向けに提供するオンライン講義・教材・学習環境を総称してSPOCと呼びます。</p>
+
+<p>高等教育研究開発推進センターでは、学内向けSPOC環境を提供しています。学内の学生・教職員に限定した利用のほか、一般公開等のオプションも提供予定です。</p>
+
+<p>MOOCを見てみると、講義をつくるのが大変そうですが、小規模のSPOCなら、より手軽に始められるかも知れません。</p>
+
+        <p>SPOCには、以下のようなメリットがあります。</p>
+        <ul>
+            <li>反転授業や予復習のための、ブレンディッド学習環境を京大の学生に提供できる</li>
+            <li>講義ビデオだけ、課題だけ、といった授業で使う教材の一部のみの提供も可能</li>
+            <li>日本語による教材の作成・提供が可能（もちろん英語もOK）</li>
+            <li>一度教材を制作すれば、次回以降は必要箇所を追加・修正するだけ</li>
+            <li>個々あるいは全員の学生の学習進捗状況をリアルタイムで把握できる</li>
+        </ul>
+
+<p>※Open edX：edXは、edXのプラットフォーム自体をオープンソース “Open edX” として公開しています。高等教育研究開発推進センターでは、Open edXを利用してSPOC環境を導入しています。</p>
+
+
+
+    </section>
+</main>
