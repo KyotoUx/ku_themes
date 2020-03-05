@@ -1,16 +1,4 @@
-// Sample dark theme to demonstrate SASS overrides
-
-// Theme colors
-//
-// Note: define colors needed by your theme first
-
-// // ku color
-
-// $kured: #b5a4b7;
-// $kured-50: lighten($kured, 9%);
-// $kured-25: lighten($kured, 20%); //Important Heading BG Color
-
-$homepage-bg-image: url("#{$static-path}/ku_theme/images/ku_tower.jpg") !default;
-
 // Initialize the Open edX Bootstrap theme
 @import "edx-bootstrap/sass/open-edx/theme";
+
+$homepage-bg-image: url("#{$static-path}/ku_theme/images/ku_tower.jpg") !default;
