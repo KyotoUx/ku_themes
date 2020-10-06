@@ -1,4 +1,15 @@
 // Initialize the Open edX Bootstrap theme
 @import "edx-bootstrap/sass/open-edx/theme";
 
-$homepage-bg-image: url("#{$static-path}/ku_theme/images/ku_tower.jpg") !default;
+$static-path: '..' !default;
+
+$homepage-bg-image: url("#{$static-path}/images/ku_tower.jpg") !default;
+
+.content-wrapper {
+    margin-top: 0px !important;
+    padding: 0 0 0px !important;
+}
+
+.courses-container {
+    padding: 0 10px !important;
+}
