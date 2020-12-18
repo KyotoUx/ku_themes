@@ -4,6 +4,10 @@ This package is Koala theme for Kyoto-U
 History
 =============
 
+2020-12-18
+-------------
+
+- For Koa, Not yet fix
 
 2020-03-05
 -------------
